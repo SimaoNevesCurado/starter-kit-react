@@ -13,7 +13,7 @@ parameters:
         - public
         - routes
 
-    # For me level 8 for Wev Development, then 10 for Package Development, but you can choose the level that suits you best.
-    level: 8
+    # For me level 7 for Wev Development, then 10 for Package Development, but you can choose the level that suits you best.
+    level: 7
 
     tmpDir: /tmp/phpstan
