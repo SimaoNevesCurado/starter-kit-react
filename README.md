@@ -1,5 +1,10 @@
 # Simao Curado Laravel Starter Kit (Inertia + React)
 
+[![CI](https://github.com/simaonevescurado/starter-kit-react/actions/workflows/tests.yml/badge.svg)](https://github.com/simaonevescurado/starter-kit-react/actions/workflows/tests.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/simaocurado/starter-kit-react.svg)](https://packagist.org/packages/simaocurado/starter-kit-react)
+[![Total Downloads](https://img.shields.io/packagist/dt/simaocurado/starter-kit-react.svg)](https://packagist.org/packages/simaocurado/starter-kit-react)
+[![License](https://img.shields.io/packagist/l/simaocurado/starter-kit-react.svg)](https://packagist.org/packages/simaocurado/starter-kit-react)
+
 An opinionated Laravel 12 starter kit for developers who want strict, consistent, and production-focused defaults out of the box.
 
 This project is based on Laravel + Inertia + React and adds a quality-first workflow with static analysis, automated refactoring, formatting, and strong testing requirements.
