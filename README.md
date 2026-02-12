@@ -45,7 +45,7 @@ Requirements:
 Create a new project with Laravel Installer (recommended):
 
 ```bash
-laravel new my-app --using=simaocurado/starter-kit-react
+laravel new my-app --using=simaocurado/starter-kit-react --pest --no-interaction
 ```
 
 Or with Composer:
