@@ -13,9 +13,7 @@ An opinionated starter kit for building Laravel + React apps with a strong focus
 ## Create Project
 
 ```bash
-composer create-project simaocurado/starter-kit-react my-app
-cd my-app
-composer setup
+composer create-project simaocurado/starter-kit-react --prefer-dist my-app
 ```
 
 `composer setup` runs:
