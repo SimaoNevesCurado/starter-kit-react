@@ -1,6 +1,8 @@
-# Starter Kit React (Laravel + Inertia)
+# Starter Kit React (Laravel 13 + Inertia)
 
-An opinionated starter kit for building Laravel + React apps with a strong focus on quality, typing, and consistency.
+An opinionated Laravel 13 + React starter kit with a strong focus on quality, typing, and consistency.
+
+The Laravel 13 bump in this template is backend-only. The existing frontend stack in `package.json` remains unchanged.
 
 ## Requirements
 
