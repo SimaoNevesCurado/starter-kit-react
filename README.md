@@ -1,8 +1,7 @@
-# Starter Kit React (Laravel 13 + Inertia)
+# Starter Kit React (Laravel + Inertia)
 
-An opinionated Laravel 13 + React starter kit with a strong focus on quality, typing, and consistency.
-
-The Laravel 13 bump in this template is backend-only. The existing frontend stack in `package.json` remains unchanged.
+An opinionated starter kit for building Laravel + React apps with a strong focus on quality, typing, and consistency.
+It currently targets Laravel 13 and aligns the shared Inertia stack on v3 while keeping the broader React frontend stack unchanged.
 
 ## Requirements
 
@@ -16,12 +15,14 @@ The Laravel 13 bump in this template is backend-only. The existing frontend stac
 
 ```bash
 composer create-project simaocurado/starter-kit-react --prefer-dist my-app
+cd my-app
+composer setup
 ```
 
 `composer setup` runs:
 - PHP dependency installation
 - `.env` creation/configuration
-- automatic `APP_URL` setup to `http://<directory-slug>.test` (from the current folder name)
+- automatic `APP_URL` setup to `http://<project-name>.test`
 - `php artisan key:generate`
 - migrations
 - `bun install`
@@ -37,7 +38,7 @@ With Herd, the HTTP server already exists (`*.test`). You only need to run the f
 bun run dev
 ```
 
-Open the app at `http://<directory-slug>.test`.
+Open the app at `http://<project-name>.test`.
 
 Optional (if you use queues):
 
@@ -76,10 +77,9 @@ This starter applies strict defaults:
 - `composer test:unit`
 - `composer test:types`
 - `composer test:lint`
-- `composer configure:app-url`
 - `composer update:requirements`
 
 ## Notes
 
 - If `bun run build` fails with a Vite/`crypto.hash` error, upgrade Node to `20.19+` or `22.12+`.
-- `APP_URL` is automatically set to `http://<directory-slug>.test` during setup. Adjust it manually only if you use a different local domain.
+- `APP_URL` is automatically set to `http://<project-name>.test` during setup. Adjust it manually only if you use a different local domain.

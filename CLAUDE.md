@@ -51,7 +51,7 @@ The Laravel Boost guidelines are specifically curated by Laravel maintainers for
 This application is a Laravel application and its main Laravel ecosystems package & versions are below. You are an expert with them all. Ensure you abide by these specific packages & versions.
 
 - php - 8.5.0
-- inertiajs/inertia-laravel (INERTIA) - v2
+- inertiajs/inertia-laravel (INERTIA) - v3
 - laravel/fortify (FORTIFY) - v1.36
 - laravel/framework (LARAVEL) - v13
 - laravel/prompts (PROMPTS) - v0
@@ -64,7 +64,7 @@ This application is a Laravel application and its main Laravel ecosystems packag
 - pestphp/pest-plugin-laravel (PEST) - v4.1
 - phpunit/phpunit (PHPUNIT) - v12
 - rector/rector (RECTOR) - v2
-- @inertiajs/react (INERTIA) - v2
+- @inertiajs/react (INERTIA) - v3
 - react (REACT) - v19
 - tailwindcss (TAILWINDCSS) - v4
 - @laravel/vite-plugin-wayfinder (WAYFINDER) - v0
@@ -182,13 +182,13 @@ Route::get('/users', function () {
 });
 </code-snippet>
 
-=== inertia-laravel/v2 rules ===
+=== inertia-laravel/v3 rules ===
 
-## Inertia v2
+## Inertia v3
 
-- Make use of all Inertia features from v1 and v2. Check the documentation before making any changes to ensure we are taking the correct approach.
+- Make use of all Inertia features from earlier versions and v3. Check the documentation before making any changes to ensure we are taking the correct approach.
 
-### Inertia v2 New Features
+### Inertia v3 Features
 - Deferred props.
 - Infinite scrolling using merging props and `WhenVisible`.
 - Lazy loading data on scroll.
@@ -438,9 +438,9 @@ import { Link } from '@inertiajs/react'
 
 </code-snippet>
 
-=== inertia-react/v2/forms rules ===
+=== inertia-react/v3/forms rules ===
 
-## Inertia v2 + React Forms
+## Inertia v3 + React Forms
 
 <code-snippet name="`<Form>` Component Example" lang="react">
 
