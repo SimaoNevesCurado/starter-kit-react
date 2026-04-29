@@ -91,3 +91,19 @@ it('includes parent shared data', function (): void {
     // Parent Inertia middleware shares 'errors' by default
     expect($shared)->toHaveKey('errors');
 });
+
+it('configures inertia page testing paths with path metadata', function (): void {
+    expect(config('inertia.testing.page_paths'))->toBe([
+        [
+            'path' => resource_path('js/pages'),
+            'extensions' => [
+                'js',
+                'jsx',
+                'svelte',
+                'ts',
+                'tsx',
+                'vue',
+            ],
+        ],
+    ]);
+});
